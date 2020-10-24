@@ -16,7 +16,7 @@ public class Gmailscript{
 		WebDriver driver=new FirefoxDriver();
 		driver.navigate().to("https://www.gmail.com");
 		WebElement w = driver.findElement(By.xpath("//input[@id='identifierId']"));
-		JavascriptExecutor js=(JavascriptExecutor)driver;
-		js.executeScript("arguments[0].setAttribute('value','sureshcs.tech')", w);
+		//JavascriptExecutor js=(JavascriptExecutor)driver;
+		//js.executeScript("arguments[0].setAttribute('value','sureshcs.tech')", w);
 	}
 }
